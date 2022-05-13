@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .img{
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        .container9{
+          width: 600px;
+          margin-left: 905px;
+          border: 1px solid;
+          height: 740px;
+          background-color: #f2f2f2;
+          margin-top: 25px;
+
+        }
+        .container9 h1{
+          flow:right;
+          margin-left: 360px;
+          margin-top:-60px;
+          font-size:50;
+        }
+        .container9 p{
+          text-align:center;
+          font-size: 25px;
+        }
+        .emoji-container10 .emoji input[type="radio"]
+        {display: none;}
+        .emoji-container10 .emoji .icons{
+            padding: 10px;
+        }
+        .emoji-container10 .emoji .icons label{
+            padding: 10px;
+            font-size:50px ;
+        cursor: pointer;
+        opacity: .4;
+        margin-left: 20px;
+        }
+        .emoji-container10{
+            align-items: center;
+        }
+        .emoji-container10 .emoji #emoji1:checked ~ .icons label:nth-child(1),
+        .emoji-container10 .emoji #emoji2:checked ~ .icons label:nth-child(2),
+        .emoji-container10 .emoji #emoji3:checked ~ .icons label:nth-child(3),
+        .emoji-container10 .emoji #emoji4:checked ~ .icons label:nth-child(4),
+        .emoji-container10 .emoji #emoji5:checked ~ .icons label:nth-child(5),
+    
+        .emoji-container10 .emoji .icons label:hover{
+            opacity:1;
+            font-size: 60px;
+            border-radius: 50%;
+        }
+
+        .feed-container11 .feed input[type="radio"]
+        {display: none;}
+        .feed-container11 .feed .icons{
+            padding: 10px;
+        }
+        .feed-container11 .feed .icons label{
+            padding: 10px;
+            font-size:20px ;
+        cursor: pointer;
+        opacity: .4;
+        margin-left: 20px;
+        border: 2px solid black;
+        }
+        .feed-container11{
+            align-items: center;
+        }
+        .feed-container11 .feed #feedback1:checked ~ .icons label:nth-child(1),
+        .feed-container11 .feed #feedback2:checked ~ .icons label:nth-child(2),
+        .feed-container11 .feed #feedback3:checked ~ .icons label:nth-child(3),
+
+
+    
+        .feed-container11 .feed .icons label:hover{
+            opacity:1;
+            border-radius: 10px;
+            border: 2px solid black;
+
+        }
+        .aa{
+            length: 100px;
+            height:50px
+        }
+        textarea{
+            align-self: center;
+            margin-left: 30px;
+    
+        }
+button{
+    cursor: pointer;
+    margin-left: 500px;
+    margin-bottom: 40px;
+    background-color: black;
+    color: #b4ff04;
+    font-size: 15px;
+}
+ a{
+    font-size: 15px;
+  width:100px;
+  display:block;
+  padding:20px 15px;
+  text-decoration:none;
+  font-family:Arial;
+  color:black;
+  text-align:center;
+margin-bottom: 30px;
+    cursor: pointer;
+    margin-top: -65px;
+    background-color: black;
+    color: #b4ff04;
+    height: 0px;
+    width: 50px;
+    padding: 0 0 2 10;
+    padding-left: -100px;
+    margin-left: 20px;
+    padding-top: 0.5%;
+    padding-bottom: 3.5%;
+
+    
+}
+
+body {
+  background-image: url("basta.png");
+  background-size: 1300px;
+}
+
+      </style>
+</head>
+<body>
+
+        <div class="container9">
+<img src="LOGO.png" width="300" height="75" class="img">
+<h1>Your Feedback</h1><br>
+<hr width="500px">
+<br>
+<div class="emoji-container10">
+    <div class="emoji">
+        
+<p>We would like your Feedback to improve our website.<br><br>What is your opinion of this page?</p>
+<input type="radio" name="buttons" id="emoji1">
+<input type="radio" name="buttons" id="emoji2">
+<input type="radio" name="buttons" id="emoji3">
+<input type="radio" name="buttons" id="emoji4">
+<input type="radio" name="buttons" id="emoji5">
+
+<div class="icons">
+    <label for="emoji1"><img src="emoji1.png" width="70" height="70"></label>
+    <label for="emoji2"><img src="emoji2.png" width="70" height="70"></label>
+    <label for="emoji3"><img src="emoji3.png" width="70" height="70"></label>
+    <label for="emoji4"><img src="emoji4.png" width="70" height="70"></label>
+    <label for="emoji5"><img src="emoji5.png" width="70" height="70"></label>
+
+</div>
+</div>
+</div>
+<hr width="500px">
+<div class="feed-container11">
+    <div class="feed">
+        <p class="ktp">Please select your feedback below.</p>
+        <input type="radio" name="buttons" id="feedback1">
+        <input type="radio" name="buttons" id="feedback2">
+        <input type="radio" name="buttons" id="feedback3">
+
+        
+        <div class="icons">
+            <label for="feedback1" class="aa">Suggestion</label>
+            <label for="feedback2">Something is not quite right </label>
+            <label for="feedback3">Compliment</label>
+
+    </div>
+
+</div><br>
+<hr width="500px">
+<p>Please leave your feedback below.</p>
+  <textarea name="message" rows="4" cols="70">></textarea>
+  <br><br>
+  <button type="submit" >submit</button></form>
+
+    
+
+     <a href="index.html"> <- back</a>
+  
+    </div>
+
+</body>
+</html>
